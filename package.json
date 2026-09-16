@@ -1,6 +1,6 @@
 {
   "name": "falcon-desk-android",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Falcon Desk - Telegram Live Chat Operator Panel for Android & Mobile Web",
   "type": "module",
   "scripts": {
@@ -26,6 +26,7 @@
     "@capacitor/android": "^6.2.0",
     "@capacitor/cli": "^6.2.0",
     "@capacitor/core": "^6.2.0",
+    "@capacitor/local-notifications": "^6.1.3",
     "@tanstack/react-virtual": "^3.13.2",
     "clsx": "^2.1.1",
     "lucide-react": "^1.16.0",

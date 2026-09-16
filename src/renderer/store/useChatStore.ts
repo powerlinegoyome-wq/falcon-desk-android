@@ -1,5 +1,6 @@
 import { create } from 'zustand';
-import { AppSettings, BotStatus, Chat, Message, QuickReply } from '../../types';
+import { AppSettings, BotStatus, Chat, Message, QuickReply, SupportedLanguage } from '../../types';
+import { initNotifications, showIncomingMessageNotification } from '../utils/notification';
 
 interface ChatStore {
   // State
@@ -234,6 +235,11 @@ export const useChatStore = create<ChatStore>((set, get) => ({
 
         window.electronAPI.onBotStatusChanged((status) => {
           get().handleBotStatusChanged(status);
+        });
+
+        // Initialize Android notifications
+        initNotifications((chatId) => {
+          get().selectChat(chatId);
         });
       }
 
@@ -541,6 +547,11 @@ export const useChatStore = create<ChatStore>((set, get) => ({
     // Play chime sound if enabled and sender is user
     if (settings.playSound && message.senderType === 'user') {
       playNotificationSound();
+    }
+
+    // Trigger Android notification if enabled and sender is user
+    if (settings.desktopNotifications && message.senderType === 'user') {
+      showIncomingMessageNotification(chat, message);
     }
 
     // If chat is currently active, mark it read and append message

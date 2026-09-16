@@ -12,10 +12,10 @@ GitHub Actions üzerinden otomatik olarak üretilen ve doğrudan Android telefon
 
 | Sürüm | Platform | İndirme Bağlantısı |
 |---|---|---|
-| **Falcon Desk Android APK** | Android 7.0+ (ARM64 / x86_64) | [📥 Releases Sayfasından En Son APK'yı İndir](https://github.com/powerlinegoyome-wq/falcon-desk-android/releases) |
+| **Falcon Desk Android v1.1.0** (Bildirim Desteği) | Android 7.0+ (ARM64 / x86_64) | [📥 FalconDesk-v1.1.0.apk İndir](https://github.com/powerlinegoyome-wq/falcon-desk-android/releases/download/v1.1.0/FalconDesk-v1.1.0.apk) |
 
 ### 📲 Telefona Nasıl Yüklenir?
-1. Yukarıdaki bağlantıdan veya [Releases](https://github.com/powerlinegoyome-wq/falcon-desk-android/releases) sekmesinden `FalconDesk-v1.0.0.apk` dosyasını telefonunuza indirin.
+1. Yukarıdaki bağlantıdan veya [Releases](https://github.com/powerlinegoyome-wq/falcon-desk-android/releases) sekmesinden `FalconDesk-v1.1.0.apk` dosyasını telefonunuza indirin.
 2. İndirilen `.apk` dosyasına dokunun.
 3. Telefonunuz "Bilinmeyen kaynaklardan yüklemeye izin ver" uyarısı verirse izin verin.
 4. "Yükle" butonuna basarak kurulumu tamamlayın ve uygulamayı açın!
@@ -24,6 +24,7 @@ GitHub Actions üzerinden otomatik olarak üretilen ve doğrudan Android telefon
 
 ## 🚀 Öne Çıkan Mobil Özellikler
 
+- 🔔 **Anlık Sistem Bildirimleri**: Müşteriniz botunuza mesaj attığında telefonunuzun bildirim çubuğunda ses, titreşim ve önizleme ile bildirim çıkar. Bildirime dokunarak doğrudan ilgili müşterinin sohbetine gidebilirsiniz.
 - 📱 **Tamamen Bilgisayarsız**: Harici bir sunucuya veya masaüstü bilgisayara ihtiyaç duymaz. Tüm bot trafiği ve veritabanı doğrudan Android cihazınızda çalışır.
 - 💬 **Canlı Destek Operatör Masası**: Botunuza Telegram'dan yazan tüm müşterilerle anlık sohbet edin, mesajları yanıtlayın.
 - 🖼️ **Mobil Dosya & Medya Aktarımı**: Telefon galerisinden veya dosya yöneticisinden fotoğraf, belge ve medya gönderin ve alın.

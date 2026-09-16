@@ -52,30 +52,35 @@ jobs:
       - name: Prepare APK Output
         run: |
           mkdir -p release-output
-          cp android/app/build/outputs/apk/debug/app-debug.apk release-output/FalconDesk-v1.0.0.apk
+          cp android/app/build/outputs/apk/debug/app-debug.apk release-output/FalconDesk-v1.1.0.apk
           ls -la release-output/
 
       - name: Upload APK Artifact
         uses: actions/upload-artifact@v4
         with:
           name: FalconDesk-APK
-          path: release-output/FalconDesk-v1.0.0.apk
+          path: release-output/FalconDesk-v1.1.0.apk
 
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         if: startsWith(github.ref, 'refs/tags/') || github.ref == 'refs/heads/main' || github.ref == 'refs/heads/master'
         with:
-          tag_name: v1.0.0
-          name: "Falcon Desk Android v1.0.0"
+          tag_name: v1.1.0
+          name: "Falcon Desk Android v1.1.0 (Bildirim Desteği)"
           body: |
-            ## 📱 Falcon Desk - Android APK
+            ## 📱 Falcon Desk - Android APK v1.1.0
 
             Telegram botlarınızı Android telefonunuzdan canlı operatör masası olarak yönetin!
 
-            ### ⬇️ Doğrudan İndirme
-            - [📥 FalconDesk-v1.0.0.apk İndir](https://github.com/${{ github.repository }}/releases/download/v1.0.0/FalconDesk-v1.0.0.apk)
+            ### 🔔 Yeni Özellikler (v1.1.0):
+            - **Canlı Sistem Bildirimleri**: Müşteri mesaj yazdığında Android durum çubuğunda anlık bildirim görünür.
+            - **Bildirime Dokunarak Sohbeti Açma**: Bildirime tıklandığında doğrudan ilgili müşterinin sohbeti açılır.
+            - **Ses ve Titreşim Desteği**: Mesaj geldiğinde ses ve titreşimle uyarı.
 
-            ### Özellikler:
+            ### ⬇️ Doğrudan İndirme
+            - [📥 FalconDesk-v1.1.0.apk İndir](https://github.com/${{ github.repository }}/releases/download/v1.1.0/FalconDesk-v1.1.0.apk)
+
+            ### Genel Özellikler:
             - **Tamamen Bağımsız**: Bilgisayara ihtiyaç duymaz, doğrudan telefondan çalışır.
             - **Canlı Destek Operatör Paneli**: Botunuza yazan kullanıcılarla anlık sohbet.
             - **Mobil Uyumlu Arayüz**: WhatsApp/Telegram mobil deneyimi, kaydırılabilir sekmeler, geri tuşu.
@@ -83,6 +88,6 @@ jobs:
             - **Yerel Güvenli Veritabanı**: IndexedDB ile mesaj ve sohbet geçmişi cihazınızda saklanır.
             - **Whitelist / Erişim Kontrolü**: Sadece izin verilen Telegram kullanıcılarıyla iletişim.
             - **Çoklu Dil Desteği**: Türkçe, İngilizce, Arapça, İspanyolca.
-          files: release-output/FalconDesk-v1.0.0.apk
+          files: release-output/FalconDesk-v1.1.0.apk
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
