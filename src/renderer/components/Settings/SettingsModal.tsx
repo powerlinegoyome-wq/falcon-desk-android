@@ -698,16 +698,10 @@ export const SettingsModal: React.FC = () => {
           )}
         </div>
 
-        {/* Subtle Developer Signature Footer */}
-        <div className="px-6 py-2.5 border-t border-[#1A1A1A] flex items-center justify-end text-[11px] bg-[#0D0D0D] rounded-b-3xl select-none">
-          <button
-            type="button"
-            onClick={() => window.electronAPI.openExternal('https://t.me/El_bahram')}
-            className="text-[#777777] hover:text-[#3B82F6] transition-colors flex items-center space-x-1"
-          >
-            <span>Developer:</span>
-            <span className="font-semibold text-[#3B82F6] hover:underline">@El_bahram</span>
-          </button>
+        {/* App Version Footer */}
+        <div className="px-6 py-2.5 border-t border-[#1A1A1A] flex items-center justify-between text-[11px] bg-[#0D0D0D] rounded-b-3xl select-none">
+          <span className="text-[#666666]">Falcon Desk Android v1.1.0</span>
+          <span className="text-[#444444]">Open Source</span>
         </div>
       </div>
     </div>
