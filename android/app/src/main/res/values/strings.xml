@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Falcon Desk</string>
+    <string name="title_activity_main">Falcon Desk</string>
+    <string name="package_name">com.falcon.desk</string>
+    <string name="custom_url_scheme">com.falcon.desk</string>
+</resources>

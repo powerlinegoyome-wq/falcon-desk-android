@@ -1,0 +1,110 @@
+{
+  "app": {
+    "name": "Falcon Desk",
+    "welcomeTitle": "Bienvenido a Falcon Desk Kingo",
+    "welcomeSubtitle": "Selecciona un chat y comienza a estafarrrr",
+    "dragDrop": "Arrastra la foto o el archivo aquí",
+    "search": "Buscar...",
+    "noChats": "Sin chats",
+    "loading": "Cargando...",
+    "noMessages": "Aún no hay mensajes",
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "online": "En línea",
+    "connecting": "Conectando...",
+    "offline": "Desconectado",
+    "startedChat": "Chat iniciado",
+    "typeMessage": "Escribe un mensaje...",
+    "botNotConnected": "Bot no conectado",
+    "replyingToUser": "Respondiendo al usuario",
+    "replyingToOperator": "Respondiendo al operador",
+    "repliedMessage": "Mensaje respondido",
+    "voiceMessage": "Mensaje de voz",
+    "document": "Documento",
+    "photo": "Foto",
+    "showInFolder": "Mostrar en carpeta"
+  },
+  "actions": {
+    "reply": "Responder",
+    "delete": "Eliminar",
+    "pin": "Fijar",
+    "unpin": "Desfijar",
+    "resend": "Reenviar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "saveAndStart": "Guardar y Iniciar",
+    "start": "Iniciar",
+    "stop": "Detener",
+    "edit": "Editar",
+    "add": "Añadir",
+    "update": "Actualizar",
+    "openTelegram": "Abrir en Telegram",
+    "resetHistory": "Restablecer historial",
+    "deleteChatConfirm": "¿Deseas eliminar este chat?",
+    "resetHistoryConfirm": "Se borrará todo el historial de chat. ¿Estás seguro?",
+    "deleting": "Eliminando...",
+    "verifying": "Verificando..."
+  },
+  "deleteModal": {
+    "title": "Eliminar mensaje",
+    "prompt": "¿Estás seguro de que deseas eliminar este mensaje del historial?",
+    "deleteForEveryone": "Eliminar para todos (Quitar de Telegram)",
+    "chatTitle": "Eliminar chat",
+    "chatPrompt": "¿Estás seguro de que deseas eliminar este chat y todo su historial?",
+    "deleteChatForEveryone": "Eliminar para la otra persona también (Quitar de Telegram)"
+  },
+  "settings": {
+    "title": "Configuración de Falcon Desk",
+    "tabs": {
+      "appearance": "Apariencia",
+      "language": "Idioma",
+      "bot": "Bot & ID",
+      "autoReply": "Bienvenida",
+      "quickReplies": "Plantillas",
+      "storage": "Almacén"
+    },
+    "theme": {
+      "title": "Tema",
+      "dark": "Modo Oscuro",
+      "light": "Modo Claro"
+    },
+    "language": {
+      "title": "Selección de idioma",
+      "tr": "Türkçe",
+      "en": "English",
+      "ar": "العربية",
+      "es": "Español"
+    },
+    "sound": {
+      "title": "Sonido de notificación"
+    },
+    "botConfig": {
+      "tokenLabel": "Token del bot de Telegram",
+      "tokenPlaceholder": "Ingresa el token del bot...",
+      "whitelistTitle": "ID de chat autorizado (Protección contra spam)",
+      "whitelistPlaceholder": "Tu ID de chat de Telegram",
+      "statusTitle": "Estado del bot",
+      "active": "Activo",
+      "stopped": "Detenido",
+      "invalidToken": "Token de bot inválido."
+    },
+    "autoReply": {
+      "switchLabel": "Mensaje de bienvenida /start",
+      "textLabel": "Texto de bienvenida",
+      "placeholder": "Ingresa tu mensaje de bienvenida...",
+      "savedAlert": "Configuración guardada."
+    },
+    "quickReplies": {
+      "title": "Respuestas rápidas",
+      "shortcutPlaceholder": "Atajo (/precio)",
+      "titlePlaceholder": "Título (Precio)",
+      "textPlaceholder": "Texto del mensaje...",
+      "empty": "No se encontraron plantillas."
+    },
+    "storage": {
+      "chats": "Chats",
+      "messages": "Mensajes",
+      "media": "Medios"
+    }
+  }
+}

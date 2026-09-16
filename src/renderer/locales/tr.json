@@ -1,0 +1,110 @@
+{
+  "app": {
+    "name": "Falcon Desk",
+    "welcomeTitle": "Falcon Desk'e Hoş Geldin Kingo",
+    "welcomeSubtitle": "Sohbet seç ve scame başlaaaa",
+    "dragDrop": "Fotoğraf veya dosyayı buraya bırakın",
+    "search": "Ara...",
+    "noChats": "Sohbet yok",
+    "loading": "Yükleniyor...",
+    "noMessages": "Henüz mesaj yok",
+    "today": "Bugün",
+    "yesterday": "Dün",
+    "online": "Bağlı",
+    "connecting": "Bağlanıyor...",
+    "offline": "Bağlantı Yok",
+    "startedChat": "Sohbet başladı",
+    "typeMessage": "Bir mesaj yazın...",
+    "botNotConnected": "Bot bağlı değil",
+    "replyingToUser": "Kullanıcıya Yanıt",
+    "replyingToOperator": "Operatöre Yanıt",
+    "repliedMessage": "Yanıtlanan Mesaj",
+    "voiceMessage": "Sesli Mesaj",
+    "document": "Belge",
+    "photo": "Fotoğraf",
+    "showInFolder": "Klasörde Göster"
+  },
+  "actions": {
+    "reply": "Yanıtla",
+    "delete": "Sil",
+    "pin": "Sabitle",
+    "unpin": "Sabitlemeyi kaldır",
+    "resend": "Tekrar Gönder",
+    "cancel": "İptal",
+    "save": "Kaydet",
+    "saveAndStart": "Kaydet & Başlat",
+    "start": "Başlat",
+    "stop": "Durdur",
+    "edit": "Düzenle",
+    "add": "Ekle",
+    "update": "Güncelle",
+    "openTelegram": "Telegram'da Aç",
+    "resetHistory": "Geçmişi Sıfırla",
+    "deleteChatConfirm": "Bu sohbeti silmek istiyor musunuz?",
+    "resetHistoryConfirm": "Tüm sohbet geçmişi silinecektir. Emin misiniz?",
+    "deleting": "Siliniyor...",
+    "verifying": "Doğrulanıyor..."
+  },
+  "deleteModal": {
+    "title": "Mesajı Sil",
+    "prompt": "Bu mesajı sohbet geçmişinden silmek istediğinize emin misiniz?",
+    "deleteForEveryone": "Herkesten sil (Telegram'dan da silinsin)",
+    "chatTitle": "Sohbeti Sil",
+    "chatPrompt": "Bu sohbeti ve tüm mesaj geçmişini silmek istediğinize emin misiniz?",
+    "deleteChatForEveryone": "Karşı taraf için de sil (Telegram'dan kaldır)"
+  },
+  "settings": {
+    "title": "Falcon Desk Ayarlar",
+    "tabs": {
+      "appearance": "Görünüm",
+      "language": "Dil",
+      "bot": "Bot & ID",
+      "autoReply": "Karşılama",
+      "quickReplies": "Şablonlar",
+      "storage": "Depolama"
+    },
+    "theme": {
+      "title": "Tema Seçimi",
+      "dark": "Koyu Tema",
+      "light": "Açık Tema"
+    },
+    "language": {
+      "title": "Dil Seçimi",
+      "tr": "Türkçe",
+      "en": "English",
+      "ar": "العربية",
+      "es": "Español"
+    },
+    "sound": {
+      "title": "Bildirim Sesi"
+    },
+    "botConfig": {
+      "tokenLabel": "Telegram Bot Token",
+      "tokenPlaceholder": "Bot Token girin...",
+      "whitelistTitle": "Yetkili Chat ID (Spam Koruması)",
+      "whitelistPlaceholder": "Kendi Telegram Chat ID'niz",
+      "statusTitle": "Bot Durumu",
+      "active": "Aktif",
+      "stopped": "Durduruldu",
+      "invalidToken": "Geçersiz Bot Token."
+    },
+    "autoReply": {
+      "switchLabel": "/start Karşılama Mesajı",
+      "textLabel": "Karşılama Metni",
+      "placeholder": "Karşılama mesajınızı girin...",
+      "savedAlert": "Ayarlar kaydedildi."
+    },
+    "quickReplies": {
+      "title": "Hazır Yanıtlar",
+      "shortcutPlaceholder": "Kısayol (/fiyat)",
+      "titlePlaceholder": "Başlık (Fiyat)",
+      "textPlaceholder": "Mesaj metni...",
+      "empty": "Şablon bulunamadı."
+    },
+    "storage": {
+      "chats": "Sohbet",
+      "messages": "Mesaj",
+      "media": "Medya"
+    }
+  }
+}

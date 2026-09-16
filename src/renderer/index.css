@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html, body, #root {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #000000;
+    color: #EDEDED;
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+}
+
+/* Custom Sleek Scrollbar - Vertical Only */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+}
+
+::-webkit-scrollbar:horizontal {
+  display: none !important;
+  height: 0px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+::selection {
+  background: rgba(59, 130, 246, 0.4);
+  color: #FFFFFF;
+}
+
+.pure-black-chat {
+  background-color: #000000;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Falcon Logo - Clean & Transparent */
+.falcon-logo,
+.splash-logo {
+  background: transparent !important;
+}
+
+/* Splash Screen Subtle Scale Animation */
+@keyframes pulseGlow {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+.splash-logo {
+  animation: pulseGlow 2.4s ease-in-out infinite;
+}
+
+/* Light Theme Overrides (High-Contrast Clean White/Slate) */
+html.light body {
+  background-color: #F8FAFC !important;
+  color: #0F172A !important;
+}
+
+html.light .pure-black-chat {
+  background-color: #F1F5F9 !important;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.04) 1px, transparent 1px) !important;
+}
+
+html.light aside {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+}
+
+html.light header {
+  background-color: #FFFFFF !important;
+  border-color: #E2E8F0 !important;
+}
+
+html.light input,
+html.light textarea {
+  background-color: #FFFFFF !important;
+  border-color: #CBD5E1 !important;
+  color: #0F172A !important;
+}
+
+html.light input::placeholder,
+html.light textarea::placeholder {
+  color: #64748B !important;
+}
+
+html.light .bg-\[\#0A0A0A\],
+html.light .bg-\[\#0D0D0D\],
+html.light .bg-\[\#121212\],
+html.light .bg-\[\#111111\],
+html.light .bg-\[\#141414\],
+html.light .bg-\[\#181818\] {
+  background-color: #FFFFFF !important;
+}
+
+html.light .border-\[\#1A1A1A\],
+html.light .border-\[\#222222\],
+html.light .border-\[\#262626\] {
+  border-color: #E2E8F0 !important;
+}
+
+html.light .text-\[\#EDEDED\] {
+  color: #0F172A !important;
+}
+
+html.light .text-\[\#888888\] {
+  color: #475569 !important;
+}
+
+html.light .bg-\[\#1F1F1F\] {
+  background-color: #E0E7FF !important;
+  color: #1E3A8A !important;
+}
+
+/* Transitions */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

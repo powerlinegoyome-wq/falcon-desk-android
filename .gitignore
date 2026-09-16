@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build and Packaging Outputs
+dist/
+dist-electron/
+release/
+release-output/
+*.apk
+*.aab
+
+# Android Gradle Builds
+.gradle/
+android/.gradle/
+android/app/build/
+android/build/
+
+# Local User Data & Database
+.data/
+
+# Environment Variables & Logs
+*.log
+.env
+.env.local
+.DS_Store
+Thumbs.db

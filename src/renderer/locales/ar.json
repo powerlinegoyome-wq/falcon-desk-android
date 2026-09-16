@@ -1,0 +1,110 @@
+{
+  "app": {
+    "name": "Falcon Desk",
+    "welcomeTitle": "مرحبًا بك في Falcon Desk Kingo",
+    "welcomeSubtitle": "اختر محادثة وابدأ",
+    "dragDrop": "اسحب الصورة أو الملف هنا",
+    "search": "بحث...",
+    "noChats": "لا توجد محادثات",
+    "loading": "جارٍ التحميل...",
+    "noMessages": "لا توجد رسائل بعد",
+    "today": "اليوم",
+    "yesterday": "أمس",
+    "online": "متصل",
+    "connecting": "جارٍ الاتصال...",
+    "offline": "غير متصل",
+    "startedChat": "بدأت المحادثة",
+    "typeMessage": "اكتب رسالة...",
+    "botNotConnected": "البوت غير متصل",
+    "replyingToUser": "الرد على المستخدم",
+    "replyingToOperator": "الرد على المشغل",
+    "repliedMessage": "الرسالة المردود عليها",
+    "voiceMessage": "رسالة صوتية",
+    "document": "مستند",
+    "photo": "صورة",
+    "showInFolder": "عرض في المجلد"
+  },
+  "actions": {
+    "reply": "رد",
+    "delete": "حذف",
+    "pin": "تثبيت",
+    "unpin": "إلغاء التثبيت",
+    "resend": "إعادة الإرسال",
+    "cancel": "إلغاء",
+    "save": "حفظ",
+    "saveAndStart": "حفظ وتشغيل",
+    "start": "تشغيل",
+    "stop": "إيقاف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "update": "تحديث",
+    "openTelegram": "فتح في تيليجرام",
+    "resetHistory": "إعادة ضبط السجل",
+    "deleteChatConfirm": "هل تريد حذف هذه المحادثة؟",
+    "resetHistoryConfirm": "سيتم مسح جميع سجلات المحادثات. هل أنت متأكد؟",
+    "deleting": "جارٍ الحذف...",
+    "verifying": "جارٍ التحقق..."
+  },
+  "deleteModal": {
+    "title": "حذف الرسالة",
+    "prompt": "هل أنت متأكد من رغبتك في حذف هذه الرسالة من سجل المحادثة؟",
+    "deleteForEveryone": "حذف للجميع (إزالة من تيليجرام)",
+    "chatTitle": "حذف المحادثة",
+    "chatPrompt": "هل أنت متأكد من رغبتك في حذف هذه المحادثة وجميع سجلات الرسائل؟",
+    "deleteChatForEveryone": "حذف للطرف الآخر أيضًا (إزالة من تيليجرام)"
+  },
+  "settings": {
+    "title": "إعدادات Falcon Desk",
+    "tabs": {
+      "appearance": "المظهر",
+      "language": "اللغة",
+      "bot": "البوت والمعرف",
+      "autoReply": "الترحيب",
+      "quickReplies": "القوالب",
+      "storage": "التخزين"
+    },
+    "theme": {
+      "title": "المظهر",
+      "dark": "الوضع الداكن",
+      "light": "الوضع الفاتح"
+    },
+    "language": {
+      "title": "اختيار اللغة",
+      "tr": "Türkçe",
+      "en": "English",
+      "ar": "العربية",
+      "es": "Español"
+    },
+    "sound": {
+      "title": "صوت الإشعارات"
+    },
+    "botConfig": {
+      "tokenLabel": "رمز بوت تيليجرام",
+      "tokenPlaceholder": "أدخل رمز البوت...",
+      "whitelistTitle": "معرف الدردشة المصرح به (حماية من السبام)",
+      "whitelistPlaceholder": "معرف تيليجرام الخاص بك",
+      "statusTitle": "حالة البوت",
+      "active": "نشط",
+      "stopped": "متوقف",
+      "invalidToken": "رمز البوت غير صالح."
+    },
+    "autoReply": {
+      "switchLabel": "رسالة الترحيب /start",
+      "textLabel": "نص الترحيب",
+      "placeholder": "أدخل رسالة الترحيب...",
+      "savedAlert": "تم حفظ الإعدادات."
+    },
+    "quickReplies": {
+      "title": "الردود السريعة",
+      "shortcutPlaceholder": "اختصار (/price)",
+      "titlePlaceholder": "العنوان (السعر)",
+      "textPlaceholder": "نص الرسالة...",
+      "empty": "لا توجد قوالب."
+    },
+    "storage": {
+      "chats": "محادثة",
+      "messages": "رسالة",
+      "media": "وسائط"
+    }
+  }
+}

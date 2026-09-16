@@ -1,0 +1,110 @@
+{
+  "app": {
+    "name": "Falcon Desk",
+    "welcomeTitle": "Welcome to Falcon Desk Kingo",
+    "welcomeSubtitle": "Select a chat and start scamminggg",
+    "dragDrop": "Drop photo or file here",
+    "search": "Search...",
+    "noChats": "No chats",
+    "loading": "Loading...",
+    "noMessages": "No messages yet",
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "online": "Online",
+    "connecting": "Connecting...",
+    "offline": "Offline",
+    "startedChat": "Chat started",
+    "typeMessage": "Type a message...",
+    "botNotConnected": "Bot not connected",
+    "replyingToUser": "Replying to User",
+    "replyingToOperator": "Replying to Operator",
+    "repliedMessage": "Replied Message",
+    "voiceMessage": "Voice Message",
+    "document": "Document",
+    "photo": "Photo",
+    "showInFolder": "Show in Folder"
+  },
+  "actions": {
+    "reply": "Reply",
+    "delete": "Delete",
+    "pin": "Pin",
+    "unpin": "Unpin",
+    "resend": "Resend",
+    "cancel": "Cancel",
+    "save": "Save",
+    "saveAndStart": "Save & Start",
+    "start": "Start",
+    "stop": "Stop",
+    "edit": "Edit",
+    "add": "Add",
+    "update": "Update",
+    "openTelegram": "Open in Telegram",
+    "resetHistory": "Reset History",
+    "deleteChatConfirm": "Do you want to delete this chat?",
+    "resetHistoryConfirm": "All chat history will be deleted. Are you sure?",
+    "deleting": "Deleting...",
+    "verifying": "Verifying..."
+  },
+  "deleteModal": {
+    "title": "Delete Message",
+    "prompt": "Are you sure you want to delete this message?",
+    "deleteForEveryone": "Delete for everyone (Remove from Telegram)",
+    "chatTitle": "Delete Chat",
+    "chatPrompt": "Are you sure you want to delete this chat and its history?",
+    "deleteChatForEveryone": "Delete for the other party too (Remove from Telegram)"
+  },
+  "settings": {
+    "title": "Falcon Desk Settings",
+    "tabs": {
+      "appearance": "Appearance",
+      "language": "Language",
+      "bot": "Bot & ID",
+      "autoReply": "Welcome",
+      "quickReplies": "Templates",
+      "storage": "Storage"
+    },
+    "theme": {
+      "title": "Theme",
+      "dark": "Dark Theme",
+      "light": "Light Theme"
+    },
+    "language": {
+      "title": "Language",
+      "tr": "Türkçe",
+      "en": "English",
+      "ar": "العربية",
+      "es": "Español"
+    },
+    "sound": {
+      "title": "Notification Sound"
+    },
+    "botConfig": {
+      "tokenLabel": "Telegram Bot Token",
+      "tokenPlaceholder": "Enter Bot Token...",
+      "whitelistTitle": "Authorized Chat ID (Spam Protection)",
+      "whitelistPlaceholder": "Your Telegram Chat ID",
+      "statusTitle": "Bot Status",
+      "active": "Active",
+      "stopped": "Stopped",
+      "invalidToken": "Invalid Bot Token."
+    },
+    "autoReply": {
+      "switchLabel": "/start Welcome Message",
+      "textLabel": "Welcome Text",
+      "placeholder": "Enter your welcome message...",
+      "savedAlert": "Settings saved."
+    },
+    "quickReplies": {
+      "title": "Quick Replies",
+      "shortcutPlaceholder": "Shortcut (/price)",
+      "titlePlaceholder": "Title (Price)",
+      "textPlaceholder": "Message text...",
+      "empty": "No templates found."
+    },
+    "storage": {
+      "chats": "Chats",
+      "messages": "Messages",
+      "media": "Media"
+    }
+  }
+}
